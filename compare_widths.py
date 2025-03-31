@@ -9,7 +9,7 @@ import csv
 WIDTHS = [1, 2, 4, 8]
 
 # Define branch predictors to test
-BP_TYPES = ['TournamentBP']
+BP_TYPES = ['TournamentBP', 'LocalBP', 'BiModeBP', 'StaticBP']
 
 # Create results directory
 os.makedirs("superscalar_results", exist_ok=True)
